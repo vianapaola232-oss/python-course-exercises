@@ -9,10 +9,10 @@ decimeters = distance * 10
 
 
 print(f"""A distance of {distance:.1f} meters corresponds to 
-{centimeters} cm 
-{millimeters} mm
-{kilometers} km
-{hectometers} hm
-{decameters} dam
-{decimeters} dm""")
+{centimeters:g} cm 
+{millimeters:g} mm
+{kilometers:g} km
+{hectometers:g} hm
+{decameters:g} dam
+{decimeters:g} dm""")
 print("-=" * 30)
