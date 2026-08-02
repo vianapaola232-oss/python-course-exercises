@@ -5,6 +5,6 @@ euros = dollars * 0.87
 print("-=" * 30)
 print("CONVERTING US DOLLARS TO EUROS")
 print("-=" * 30)
-print(f"US${dollars:.2f} equals €{euros:.2f}.")
+print(f"US${dollars:g} equals €{euros:.2f}.")
 
 
