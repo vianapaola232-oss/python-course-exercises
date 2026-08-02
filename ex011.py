@@ -1,3 +1,4 @@
+# Wall painting calculator
 width = float(input("Enter the wall width in meters (m): "))
 height = float(input("Enter the wall height in meters (m): "))
 
